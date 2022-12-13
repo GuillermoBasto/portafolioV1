@@ -1,9 +1,10 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
+  box-sizing: border-box;
   
 }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -12,7 +13,7 @@ html, body {
 .wrapper {
   width: 100vw;
   height: 100vw;
-  background-color: #012f7b;
+  background-color: #171e2e;
   color: #fff;
 }
 
@@ -28,8 +29,8 @@ html, body {
   padding: 10px 20px; 
 }
 .menu a:hover{
-  background-color: #4e7a27;
-  color: #012f7b
+  background-color: #2fb4c2;
+  color: #171e2e
 }
 .menu li{
   list-style:none;
@@ -41,11 +42,13 @@ html, body {
   padding: 2em;
 }
 
-.main{
+.main {
   margin: 0 auto;
   width: 80vw;
-  height: 80vw;
+  height: 80vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2,1fr);
   align-items: center;
 }
+
+
