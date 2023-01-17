@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
-
-.wrapper {
-  height: 100vh;
-  width: 100;
-  background-color: #FFF;
+h3{
+  color: rgb(174, 174, 174);
 }
+h1 span{
+  color:#012036;
+}
+
+#descargaCV{
+  padding: 0.5em;
+  background-color:#012036;
+  color: white;
+  border-radius: 10px ;
+}
+#descargaCV:hover{
+  background-color: cyan;
+  color:black;
+}
+
 
 .navbar{
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 0.5em;
   background-color: #012036;
 }
 
@@ -34,7 +48,13 @@
   border-radius: 10px;
 }
 
-.main {
-  text-align: center;
+.home {
+  text-align: justify;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#acercaDeMi{
+  background-color: #012036;
+  color: white
 }
